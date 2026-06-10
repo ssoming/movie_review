@@ -1,0 +1,3 @@
+- Interpreter: Python 3.12
+- create datasets, models file
+- Data Column titles, reviews 
