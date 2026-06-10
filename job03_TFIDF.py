@@ -12,4 +12,4 @@ print(Tfidf_matirx.shape)   #83709: 형태소의 개수
 
 with open('models/tfidf.pkl', 'wb') as f:
     pickle.dump(Tfidf, f)
-mmwrite('models/Tfidif_movie_review.mtx', Tfidf_matirx)     # mmwrite: matrix 형태의 데이터 저장
+mmwrite('models/Tfidf_movie_review.mtx', Tfidf_matirx)     # mmwrite: matrix 형태의 데이터 저장
